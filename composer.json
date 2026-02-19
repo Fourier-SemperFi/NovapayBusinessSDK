@@ -1,0 +1,24 @@
+{
+  "name": "fourier-semperfi/novapay-business-sdk",
+  "description": "PHP SDK for NovaPay Business SOAP API",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Fourier-SemperFi",
+      "homepage": "https://github.com/Fourier-SemperFi"
+    }
+  ],
+  "homepage": "https://github.com/Fourier-SemperFi/NovapayBusinessSDK",
+  "keywords": ["novapay", "soap", "banking", "ukraine", "payments"],
+  "require": {
+    "php": ">=7.4",
+    "ext-soap": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NovaPay\\": "src/"
+    }
+  }
+}
